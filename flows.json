@@ -1,0 +1,64 @@
+[
+  {
+    "id": "flow-01",
+    "name": "Credit Check Flow",
+    "description": "Standard automated credit check process",
+    "owner": "System",
+    "scenarioId": "scen-01",
+    "subScenarioId": "Credit Assessment", 
+    "nodes": [
+      {
+        "id": "node-1",
+        "type": "dataSource",
+        "label": "Applicant Data",
+        "x": 100,
+        "y": 150,
+        "data": { "source": "CRM" }
+      },
+      {
+        "id": "node-2",
+        "type": "dataProcess",
+        "label": "Calculate DTI",
+        "x": 300,
+        "y": 150,
+        "data": {}
+      },
+      {
+        "id": "node-3",
+        "type": "judgment",
+        "label": "Score > 700?",
+        "x": 500,
+        "y": 150,
+        "data": {}
+      },
+      {
+        "id": "node-4",
+        "type": "report",
+        "label": "Final Decision",
+        "x": 700,
+        "y": 150,
+        "data": {}
+      }
+    ],
+    "edges": [
+      { "source": "node-1", "target": "node-2" },
+      { "source": "node-2", "target": "node-3" },
+      { "source": "node-3", "target": "node-4" }
+    ]
+  },
+  {
+    "id": "flow-02",
+    "name": "Competitor Pricing Scan",
+    "description": "Scrape and analyze competitor sites",
+    "owner": "Bot",
+    "scenarioId": "scen-02",
+    "subScenarioId": "Competitor Analysis",
+    "nodes": [
+       { "id": "n1", "type": "dataSource", "label": "Web Scraper", "x": 100, "y": 100 },
+       { "id": "n2", "type": "charting", "label": "Price Trend", "x": 300, "y": 100 }
+    ],
+    "edges": [
+       { "source": "n1", "target": "n2" }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "case-001",
+    "caseId": "CS-2024-001",
+    "scenario": "Risk Management",
+    "subScenario": "Credit Assessment",
+    "status": "Complete"
+  },
+  {
+    "id": "case-002",
+    "caseId": "CS-2024-002",
+    "scenario": "Risk Management",
+    "subScenario": "Credit Assessment",
+    "status": "Processing"
+  },
+  {
+    "id": "case-003",
+    "caseId": "CS-2024-003",
+    "scenario": "Market Intelligence",
+    "subScenario": "Competitor Analysis",
+    "status": "Complete"
+  }
+]

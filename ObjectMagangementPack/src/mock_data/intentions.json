@@ -1,0 +1,18 @@
+[
+  {
+    "id": "int-01",
+    "name": "Risk Assessment Logic",
+    "description": "Core logic for determining creditworthiness",
+    "flowId": "flow-01",
+    "dataSubject": "Loan Applicant",
+    "owner": "Risk Team"
+  },
+  {
+    "id": "int-02",
+    "name": "Pricing Monitor",
+    "description": "Track pricing changes",
+    "flowId": "flow-02",
+    "dataSubject": "Competitor Products",
+    "owner": "Strategy Team"
+  }
+]

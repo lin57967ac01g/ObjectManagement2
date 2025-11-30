@@ -1,0 +1,10 @@
+[
+  {
+    "id": "script-01",
+    "chartGroup": "Financials",
+    "patternType": "Classification",
+    "toolType": "Python / Pandas",
+    "owner": "Data Science Team",
+    "intentionIds": ["int-01"]
+  }
+]

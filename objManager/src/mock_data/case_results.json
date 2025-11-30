@@ -1,0 +1,59 @@
+{
+  "case-001": [
+    {
+      "id": "ir-001",
+      "name": "Risk Assessment Logic",
+      "description": "Analysis of applicant creditworthiness based on bureau data and internal scoring models.",
+      "summaryPoints": [
+        "Applicant credit score is 745 (Pass > 700)",
+        "Debt-to-Income ratio is 28% (Pass < 40%)",
+        "No recent delinquencies found"
+      ],
+      "resultSummary": "Approved",
+      "tableData": [
+        { "metric": "Credit Score", "value": "745", "change": "+15" },
+        { "metric": "DTI Ratio", "value": "28%", "change": "-2%" },
+        { "metric": "Annual Income", "value": "$85,000", "change": "+5%" }
+      ],
+      "chartData": [
+        { "name": "Q1", "value": 720 },
+        { "name": "Q2", "value": 730 },
+        { "name": "Q3", "value": 725 },
+        { "name": "Q4", "value": 745 }
+      ]
+    }
+  ],
+  "case-002": [
+    {
+      "id": "ir-002",
+      "name": "Risk Assessment Logic",
+      "description": "Processing...",
+      "summaryPoints": ["Data collection in progress"],
+      "resultSummary": "Pending",
+      "tableData": [],
+      "chartData": []
+    }
+  ],
+  "case-003": [
+    {
+      "id": "ir-003",
+      "name": "Pricing Monitor",
+      "description": "Analysis of competitor pricing trends for Q4 products.",
+      "summaryPoints": [
+        "Competitor A increased prices by 5%",
+        "Competitor B launched a discount campaign"
+      ],
+      "resultSummary": "Market Shift Detected",
+      "tableData": [
+        { "metric": "Avg Market Price", "value": "$120", "change": "+3%" },
+        { "metric": "Our Price", "value": "$115", "change": "0%" }
+      ],
+      "chartData": [
+        { "name": "Week 1", "value": 110 },
+        { "name": "Week 2", "value": 112 },
+        { "name": "Week 3", "value": 115 },
+        { "name": "Week 4", "value": 120 }
+      ]
+    }
+  ]
+}

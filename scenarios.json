@@ -1,0 +1,22 @@
+[
+  {
+    "id": "scen-01",
+    "name": "Risk Management",
+    "subScenario": "Credit Assessment",
+    "description": "Assess customer credit risk for loan approval.",
+    "triggerConditions": "Loan Application > $10k",
+    "permissions": "Risk Team",
+    "commonKnowledge": ["Credit Policy 2023", "Risk Matrix"],
+    "owner": "Alex Chen"
+  },
+  {
+    "id": "scen-02",
+    "name": "Market Intelligence",
+    "subScenario": "Competitor Analysis",
+    "description": "Analyze competitor pricing and feature updates.",
+    "triggerConditions": "Quarterly",
+    "permissions": "Strategy Team",
+    "commonKnowledge": ["Market Report Q3"],
+    "owner": "Sarah Lee"
+  }
+]
